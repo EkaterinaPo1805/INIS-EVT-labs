@@ -1,29 +1,31 @@
-let block;
+let selected;
 
-document.querySelectorAll(".target").forEach((target) =>
+document.querySelectorAll(".target").forEach((block) =>
 {
     let startLeft;
     let startTop;
 
-    target.addEventListener("mousedown", (event) =>
+    block.addEventListener("mousedown", (event) =>
     {
         block = event.target;
         startLeft = block.style.left;
         startTop = block.style.top;
 
         document.addEventListener("mousemove", moveAt);
-        document.addEventListener("mouseup", stop);
 
-        document.addEventListener('keydown', backEvent => {
-            if (backEvent.key === 'Escape') {
-                document.removeEventListener("mouseup", stop);
+
+        document.addEventListener("mouseup", stopMoving);
+
+        document.addEventListener('keydown', evt => {
+            if (evt.key === 'Escape') {
+                document.removeEventListener("mouseup", stopMoving);
                 document.removeEventListener("mousemove", moveAt);
                 block.style.left = startLeft;
                 block.style.top = startTop;
             }
         });
 
-        function stop()
+        function stopMoving(event)
         {
             document.removeEventListener("mousemove", moveAt);
             startLeft = block.style.left;
@@ -31,7 +33,7 @@ document.querySelectorAll(".target").forEach((target) =>
         }
     });
 
-    target.addEventListener("dblclick", (event) => 
+    block.addEventListener("dblclick", (event) => 
     {
         block = event.target;
         startLeft = block.style.left;
@@ -39,15 +41,15 @@ document.querySelectorAll(".target").forEach((target) =>
         
         let baseColor = block.style.background;
 
-        block.style.background = "purple";
+        block.style.background = "blue";
 
         document.addEventListener("mousemove", moveAt);
 
-        document.addEventListener("click", stop);
+        document.addEventListener("click", stopMoving);
 
-        document.addEventListener('keydown', backEvent => {
-            if (backEvent.key === 'Escape') {
-                document.removeEventListener("mouseup", stop);
+        document.addEventListener('keydown', evt => {
+            if (evt.key === 'Escape') {
+                document.removeEventListener("mouseup", stopMoving);
                 document.removeEventListener("mousemove", moveAt);
                 block.style.background = baseColor;
                 block.style.left = startLeft;
@@ -55,12 +57,11 @@ document.querySelectorAll(".target").forEach((target) =>
             }
         });
 
-        function stop()
+        function stopMoving(event)
         {
             block.style.background = baseColor;
             document.removeEventListener("mousemove", moveAt);
         }
-
     });
 });
 

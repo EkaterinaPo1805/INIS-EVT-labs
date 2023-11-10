@@ -1,5 +1,14 @@
+var out = ''
+for (var key in shirts){
+    out+=''+shirts[key].name+'<br>'
+    out+=''+shirts[key].description+'<br>'
+    out+=''+shirts[key].price+'<br>'
+    out+='<img src="'+shirts[key].default.front+'">'
+    out+='<hr>'
+}
+document.getElementById('out').innerHTML=out
 
-class Products{
+/*class Products{
     render(){
         let catalog=``;
         shirts.forEach((element)=>{
@@ -19,8 +28,9 @@ class Products{
         ${catalog}
         </ul>
         `;
+        ROOT_PRODUCTS.innerHTML=html;
     }
 }
 
 const products = new Products();
-products.render();
+products.render();*/
