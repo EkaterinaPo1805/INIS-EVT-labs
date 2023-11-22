@@ -1,69 +1,71 @@
-let block;
+let selected;
 
-document.querySelectorAll(".target").forEach((target) =>
+document.querySelectorAll(".target").forEach((block) =>
 {
     let startLeft;
     let startTop;
 
-    target.addEventListener("touchstart", (event) =>
+    block.addEventListener("mousedown", (event) =>
     {
-        block = event.target;
-        startLeft = block.style.left;
-        startTop = block.style.top;
+        selected = event.target;
+        startLeft = selected.style.left;
+        startTop = selected.style.top;
 
-        document.addEventListener("touchmove", moveAt);
-        document.addEventListener("touchend", stop);
+        document.addEventListener("mousemove", moveAt);
 
-        document.addEventListener('touchcancel', cancel);
+
+        document.addEventListener("mouseup", stopMoving);
+
+        document.addEventListener('keydown', evt => {
+            if (evt.key === 'Escape') {
+                document.removeEventListener("mouseup", stopMoving);
+                document.removeEventListener("mousemove", moveAt);
+                selected.style.left = startLeft;
+                selected.style.top = startTop;
+            }
         });
 
-        function cancel(){
-            document.removeEventListener("touchend", stop);
-            document.removeEventListener("touchmove", moveAt);
-            block.style.left = startLeft;
-            block.style.top = startTop;
-        }
-
-        function stop()
+        function stopMoving(event)
         {
-            document.removeEventListener("touchmove", moveAt);
-            startLeft = block.style.left;
-            startTop = block.style.top;
+            document.removeEventListener("mousemove", moveAt);
+            startLeft = selected.style.left;
+            startTop = selected.style.top;
         }
     });
 
-    target.addEventListener("dblclick", (event) => 
+    block.addEventListener("dblclick", (event) => 
     {
-        block = event.target;
-        startLeft = block.style.left;
-        startTop = block.style.top;
+        selected = event.target;
+        startLeft = selected.style.left;
+        startTop = selected.style.top;
         
-        let baseColor = block.style.background;
+        let baseColor = selected.style.background;
 
-        block.style.background = "purple";
+        selected.style.background = "blue";
 
-        document.addEventListener("touchmove", moveAt);
+        document.addEventListener("mousemove", moveAt);
 
-        document.addEventListener("click", stop);
+        document.addEventListener("click", stopMoving);
 
-        document.addEventListener('touchcancel', cancel);
+        document.addEventListener('keydown', evt => {
+            if (evt.key === 'Escape') {
+                document.removeEventListener("mouseup", stopMoving);
+                document.removeEventListener("mousemove", moveAt);
+                selected.style.background = baseColor;
+                selected.style.left = startLeft;
+                selected.style.top = startTop;
+            }
+        });
 
-        function cancel(){
-            document.removeEventListener("touchend", stop);
-            document.removeEventListener("touchmove", moveAt);
-            block.style.left = startLeft;
-            block.style.top = startTop;
-        }
-
-        function stop()
+        function stopMoving(event)
         {
-            block.style.background = baseColor;
-            document.removeEventListener("touchmove", moveAt);
+            selected.style.background = baseColor;
+            document.removeEventListener("mousemove", moveAt);
         }
-
     });
+});
 
 function moveAt(event) {
-    block.style.left = event.pageX - block.offsetWidth / 2 + 'px';
-    block.style.top = event.pageY - block.offsetHeight / 2 + 'px';
+    selected.style.left = event.pageX - selected.offsetWidth / 2 + 'px';
+    selected.style.top = event.pageY - selected.offsetHeight / 2 + 'px';
 }

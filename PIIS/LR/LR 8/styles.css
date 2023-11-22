@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html
+{
+    width: 100%;
+    height: 100%;
+}
+
+#work-area{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+#draw-area
+{
+    width: 90%;
+    height: 90%;
+    border: 2px solid rgb(45, 214, 236);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+canvas
+{
+    position: absolute;
+}
