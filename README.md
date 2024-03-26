@@ -1,5 +1,5 @@
 # ***CV***
-![photo](https://github.com/EkaterinaPo1805/INIS-EVT-labs/blob/main/EVT/LR%2010/img.jpg)
+![photo](https://github.com/EkaterinaPo1805/INIS-EVT-labs/blob/main/EVT/LR%2010/img.jpg "photo")
 ## **Popova Ekaterina**
 ### *Frontend-разработчик*
 
