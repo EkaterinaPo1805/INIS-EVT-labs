@@ -1,5 +1,5 @@
 # ***CV***
-![photo](https://github.com/EkaterinaPo1805/INIS-EVT-labs/blob/main/EVT/LR%2010/img.jpg) "фото")
+![photo](https://github.com/EkaterinaPo1805/INIS-EVT-labs/blob/main/EVT/LR%2010/img.jpg)
 ## **Popova Ekaterina**
 ### *Frontend-разработчик*
 
@@ -21,7 +21,7 @@
     <input type="password" name="psw"><br>
     </fieldset>
 ```
-|Contacts   |                                                                                                                    |
-|-----------|:------------------------------------------------------------------------------------------------------------------:| 
-|telephone  |   +375291551890                                                                                                    |
-|portfolio  |   [Portfolio](https://github.com/EkaterinaPo1805/INIS-EVT-labs)https://github.com/EkaterinaPo1805/INIS-EVT-labs)   |
+|Contacts   |                                                                  |
+|-----------|:----------------------------------------------------------------:| 
+|telephone  |   +375291551890                                                  |
+|portfolio  |   [Portfolio](https://github.com/EkaterinaPo1805/INIS-EVT-labs)  |
