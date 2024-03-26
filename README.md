@@ -21,7 +21,7 @@
     <input type="password" name="psw"><br>
     </fieldset>
 ```
-Contacts 
------------|:-------: 
-telephone  |   +375291551890 
-portfolio  |   [Portfolio](адрес "Описание")
+|Contacts   |                                  |
+|-----------|:--------------------------------:| 
+|telephone  |   +375291551890                  |
+|portfolio  |   [Portfolio](адрес "Описание")  |
