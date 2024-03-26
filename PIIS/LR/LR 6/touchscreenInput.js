@@ -8,7 +8,7 @@ document.querySelectorAll(".target").forEach((block) =>
 {
     block.addEventListener("touchstart", (event) =>
     {
-        console.log(event);
+        
 
         selectedTouch = event.target;
 

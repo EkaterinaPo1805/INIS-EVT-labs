@@ -1,0 +1,67 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  header {
+    background: rgb(52, 206, 142);
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: rgba(16, 233, 215, 0.178);
+    flex: 100px;
+  }
+
+  section {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+#onethree{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 600px;
+  }
+
+  #foursix{
+    display: flex;
+    flex-flow: column-reverse wrap;
+    order: 1;
+    flex: 1 300px;
+  }
+
+  #seveneight{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 300px;
+  }
+
+  #nineten{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 300px;
+  }
+
+  #seventen{
+    display: flex;
+    flex-flow: column wrap;
+    flex: 2 600px;
+  }
+
+  #down {
+    display: flex;
+  }
+  

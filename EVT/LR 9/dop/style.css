@@ -1,0 +1,18 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .adoptiv {
+      display: grid;
+      grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-auto-flow: column;
+    }
+
+  img {
+      grid-column: span 1;
+    }

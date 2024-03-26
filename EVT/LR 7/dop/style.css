@@ -1,0 +1,21 @@
+article {
+    padding: 10px;
+    margin: 10px;
+    background: rgba(16, 233, 215, 0.178);
+    flex: 100px;
+  }
+
+  .first {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .second {
+    display: flex;
+    flex-flow: column-reverse wrap;
+  }
+
+  .third {
+    display: flex;
+    flex-flow: row-reverse wrap;
+  }

@@ -1,0 +1,93 @@
+@media (min-width: 1441px) {
+  body {
+  background-color: #d2efff;
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+@font-face {
+  font-family: 'First-font';
+  src: url('Oswald-Regular.otf') format('truetype'); 
+}  
+@font-face {
+  font-family: 'Second-font';
+  src: url('Titillium_Web/TitilliumWeb-SemiBoldItalic.ttf') format('truetype'); 
+}  
+@font-face {
+  font-family: 'Third-font';
+  src: url('Oswald/Oswald-VariableFont_wght.ttf') format('truetype'); 
+}  
+
+
+#first {
+  font-family: 'First-font';
+  display: inline;
+  text-align: left;
+  img {
+    margin: 0px 10px 0px 10px;
+  }
+    td {
+      text-align: left;
+    }
+} 
+#second {
+  font-family: 'Second-font';
+  display: inline;
+  text-align: center;
+  img {
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+
+  }
+  table {
+    margin: auto;
+    td {
+      text-align: center;
+    }
+  }
+}
+#third {
+  font-family: 'Third-font', Impact;
+  display: inline;
+  text-align: right;
+  img {
+    float: right;
+    margin: 0px 10px 0px 10px;
+  }
+  table {
+    float: right;
+    td {
+      text-align: right;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+img{
+  width: 400px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+#b2{
+  font-weight: 900;
+}
+
+
+  
+
+
+
+
+
