@@ -5,6 +5,7 @@
 
 **********************
 <div id="badges">
+    <img src="https://komarev.com/ghpvc/?username=EkaterinaPo1805&style=flat-square&color=yellow" alt=""/>
 <a href="https://www.linkedin.com/in/kateyourdesigner/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
 </a>
