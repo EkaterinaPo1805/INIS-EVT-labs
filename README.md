@@ -16,7 +16,7 @@
 <img src="https://komarev.com/ghpvc/?username=EkaterinaPo1805&style=flat-square&color=yellow" alt=""/>
 
 <div align="center">
-  <img src="https://giphy.com/gifs/PLCnext-plcnext-phoenixcontact-plcnexttechnology-fwbZnTftCXVocKzfxR" width="600" height="300"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3FoZDl1NnRkbDN2aXI5ejMzOHhtY3JqOTY3d251am53YmY5ZDE2NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fwbZnTftCXVocKzfxR/giphy.gif" width="600" height="300"/>
 </div>
 
 #### :muscle: **Skills**
@@ -44,12 +44,18 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
 
+
+
 #### :woman_student: **Education**
 * 2021-nowadays
   + Belarusian State University of Informatics and Radioelectronics
     - Engineering and psychological support of information technologies
 
-#### :us: English level - B1   
+
+
+#### :earth_americas: English level - B1   
+
+
     
 #### :computer: Code
 ```
@@ -62,9 +68,11 @@
     </fieldset>
 ```
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=EkaterinaPo1805&theme=light&background=AFEEEE)](https://git.io/streak-stats)
+
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=EkaterinaPo1805&theme=vision-friendly-light)](https://git.io/streak-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EkaterinaPo1805&layout=compact&theme=vision-friendly-light)](https://github.com/anuraghazra/github-readme-stats)
+
 
 |Contacts   |                                                 |
 |-----------|:-----------------------------------------------:| 
