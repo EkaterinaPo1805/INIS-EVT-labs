@@ -4,14 +4,10 @@
 ### *Frontend-разработчик*
 
 **********************
-<div id="badges">
-<a href="https://www.linkedin.com/in/kateyourdesigner/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-</a>
+
 <a href="https://github.com/EkaterinaPo1805">
     <img src="https://img.shields.io/badge/GitHub-purple?style=for-the-badge&logo=linkedin&logoColor=white" alt="GitHub Badge"/>
 </a>
-</div>
 
 <img src="https://komarev.com/ghpvc/?username=EkaterinaPo1805&style=flat-square&color=yellow" alt=""/>
 
