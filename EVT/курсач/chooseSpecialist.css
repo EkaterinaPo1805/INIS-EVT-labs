@@ -1,0 +1,328 @@
+
+@import "header.css";
+@import "footer.css";
+
+  .content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+    padding: 0 120px; 
+    width: calc(100% - 240px);
+  }
+
+  @media (max-width: 1439.98px) {
+    .content {
+      gap: 58px;
+      padding: 0 50px; 
+      width: calc(100% - 100px);
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .content {
+      gap: 46px;
+      padding: 0 26px; 
+      width: calc(100% - 52px);
+    }
+  }
+
+  .book-appointment-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+  }
+
+  @media (max-width: 1439.98px) {
+    .book-appointment-container {
+      gap: 36px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .book-appointment-container {
+      gap: 28px;
+    }
+  }
+
+  .book-appointment-heading {
+    color: #000;
+    font-size: 64px;
+    font-weight: 400;
+    margin: 0px;
+  }
+  
+  @media (max-width: 1439.98px) {
+    .book-appointment-heading {
+      font-size: 36px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .book-appointment-heading {
+      font-size: 28px;
+    }
+  }
+
+  
+  .booking-steps {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    border-radius: 16px;
+    font-size: 34px;
+    background-color: #f247c3;
+  }
+
+  @media (max-width: 1439.98px) {
+  .booking-steps {
+    height: 53px;
+    font-size: 28px;
+  }
+  }
+
+  @media (max-width: 767.98px) {
+    .booking-steps {
+      height: 48px;
+      border-radius: 8px;
+      font-size: 24px;
+    }
+    }
+
+  .step-1-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: #8a59ec;
+    color: #fff;
+    flex-grow: 2;
+  }
+
+  @media (max-width: 767.98px) {
+    .step-1-2 {
+      border-radius: 8px;
+    }
+    }
+
+  .step-1, .step-2, .step-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .choose-specialist-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 54px;
+  }
+
+  @media (max-width: 1439.98px) {
+    .choose-specialist-content {
+      gap: 32px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .choose-specialist-content {
+      gap: 28px;
+    }
+  }
+
+  .psychologist-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .choose-specialist-heading {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0px;
+  }
+
+  @media (max-width: 1439.98px) {
+    .choose-specialist-heading {
+      font-size:30px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .choose-specialist-heading {
+      font-size: 24px;
+    }
+  }
+
+  .psychologist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px; 
+  }
+
+  @media (max-width: 1439.98px) {
+    .psychologist-grid {
+      gap: 10px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .psychologist-grid {
+      gap: 8px;
+    }
+  }
+
+  .psychologist-card {
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid #000000;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+  }
+
+  @media (max-width: 767.98px) {
+    .psychologist-card {
+      border: 1px solid #000000;
+    }
+  }
+
+  .psychologist-image {
+    width: 364px;
+    height: 326px;
+  }
+
+  @media (max-width: 1439.98px) {
+    .psychologist-image {
+      width: 216px;
+      height: 209px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .psychologist-image {
+      width: 140px;
+      height: 145px;
+    }
+  }
+
+  .psychologist-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 8px;
+  }
+
+  @media (max-width: 1439.98px) {
+    .psychologist-details {
+      padding: 16px 0px;
+      gap: 6px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .psychologist-details {
+      padding: 12px 0px;
+      gap: 4px;
+    }
+  }
+
+  .psychologist-name {
+    font-size: 38px;
+    margin: 0px;
+    font-weight: 400;
+  }
+
+  @media (max-width: 1439.98px) {
+    .psychologist-name {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .psychologist-name {
+      font-size: 10px;
+    }
+  }
+
+  .psychologist-specialty {
+    font-size: 28px;
+    margin: 0px;
+    font-weight: 400;
+  }
+
+  @media (max-width: 1439.98px) {
+    .psychologist-specialty {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .psychologist-specialty {
+      font-size: 8px;
+    }
+  }
+
+.psychologist-card:active {
+  background-color: #F247C3 !important;
+  color: #ffffff !important;
+  border: none;
+}
+
+.psychologist-card:hover {
+  border-color: #F247C3;
+  background-color: #ffffff;
+  color: #F247C3;
+transition: all 100ms ease-out;
+}
+
+
+.dark-theme {
+.book-appointment-heading {
+color: #ffffff;
+}
+
+.booking-steps {
+background-color: #86276d;
+}
+
+.step-1-2 {
+background-color: #7a00ae;
+}
+
+.psychologist-card{
+color: #ffffff;
+border: 1px solid #ffffff;
+background-color: #e6a8ff;
+}
+
+.choose-service-heading {
+color: #ffffff;
+}
+
+.psychologist-card:active {
+background-color: #7a00ae !important;
+color: #ffffff !important;
+}
+
+.psychologist-card:hover {
+border-color: #e6a8ff;
+background-color: #ffffff;
+color: #e6a8ff;
+}
+
+}
+
+
+
+
+ 
+
+ 

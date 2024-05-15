@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+text-align: center;
+}
+
+body .wrapper {
+    max-width: 100% !important;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(240, 255, 35);
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(240, 255, 35);
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#fot a{
+    text-decoration: underline !important;
+    color: rgb(255, 179, 0) !important;
+    &:hover {
+        cursor: default;
+    }
+}
+
+
+article.article p {
+    font-style: normal !important;
+}
+
+.blockquote {
+    font-style: italic;
+}
+
+.article.first p:nth-of-type(3):first-letter, .article.second p:nth-of-type(2):first-letter,
+.article.third p:nth-of-type(2):first-letter, .article.fourth p:nth-of-type(2):first-letter, .article.fifth p:nth-of-type(4):first-letter {
+    color: rgb(255, 187, 0);
+    font-size: 30px;
+}
+
+.word {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.word.first {
+    position: sticky;
+    top: 70px;
+    left: 30px;
+    background: rgb(221, 0, 184);
+    width: 50px;
+}
+
+.word.second {
+    position: sticky;
+    top: 70px;
+    left: 85px;
+    background: rgb(248, 54, 54);
+    width: 15px;
+}
+
+.word.third {
+   
+    position: sticky;
+    top: 70px;
+    left: 105px;
+    background: rgb(118, 26, 255);
+    width: 40px;
+}
+
+.word.fourth {
+    position: sticky;
+    top: 70px;
+    left: 150px;
+    background: rgb(5, 201, 231);
+    width: 65px;
+}
+
+.word.fifth {
+    position: sticky;
+    top: 70px;
+    left: 220px;
+    background: rgba(35, 228, 5, 0.826);
+    width: 55px;
+}
+
+.article.first img, .article.third img, .article.fifth img {
+    float:left;
+    margin: 10px 10px 10px 0;
+    height: 200px;
+}
+
+.article.second img, .article.fourth img {
+    float:right;
+    margin: 10px 0px 10px 10px;
+    height: 80px;
+    width: 300px;
+}
+

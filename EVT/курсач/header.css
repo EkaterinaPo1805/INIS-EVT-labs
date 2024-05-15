@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+.mental-health-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  } 
+  
+  @media (max-width: 1439.98px) {
+    .mental-health-container {
+      gap: 60px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .mental-health-container {
+      gap: 40px;
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8a59ec;
+    color: #ffffff;
+    padding: 40px 120px; 
+    width: calc(100% - 240px);
+  }
+  
+  @media (max-width: 1439.98px) {
+    .header {
+      padding: 20px 50px; 
+      width: calc(100% - 100px);
+    }
+  }
+
+    @media (max-width: 767.98px) {
+    .header {
+      padding: 8px 26px; 
+      width: calc(100% - 52px);
+    }
+  }
+  
+  .logo-container {
+    display: flex;
+    font-weight: 600;
+    font-size: 42px;
+  }
+  
+  @media (max-width: 1439.98px) {
+    .logo-container {
+      font-size: 36px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .logo-container {
+      font-size: 18px;
+    }
+  }
+  
+  .logo-text {
+    color: #ffffff;
+  }
+  
+  .logo-color {
+    color: #000000;
+  }
+  
+  .logo-icon {
+    width: 11px;
+    align-self: start;
+  }
+  
+  @media (max-width: 767.98px) {
+    .logo-icon {
+      width: 6px;
+      align-self: start;
+    }
+  }
+  
+  .nav-container {
+    display: flex;
+    gap: 72px;
+    font-size: 28px;
+    font-weight: 400;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 32px;
+    margin: auto;
+  }
+  
+  @media (max-width: 1439.98px) {
+    .nav-links {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .nav-links {
+      display: none;
+    }
+  }
+  
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 86px;
+    left: 0px;
+    background-color: #f247c3;
+    .nav-link {
+    color: #ffffff;
+    }
+    width: 100%;
+    gap: 12px;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .nav-links.active .nav-link {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .nav-links.active {
+      top: 60px;
+    }
+  
+    .nav-links.active .nav-link {
+      font-size: 18px;
+    }
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 767.98px) {
+    .profile-name {
+      display: none;
+    }
+  }
+  
+  .other-menu{
+    display: flex;
+    gap: 48px;
+  }
+  
+  
+  @media (min-width: 1440px) {
+    .burger-menu{
+      display: none;
+    }
+  }
+  
+  .profile-image-dark {
+    display: none;
+  }
+
+  .dark-theme {
+
+    .mental-health-container {
+      background-color: #e6a8ff;
+    }
+
+    .header {
+    color: #ffffff;
+    }
+    
+    .logo-text {
+    color: #000000;
+    }
+    
+    .logo-color {
+    color: #ffffff;
+    }
+    
+    .logo-icon {
+    filter: invert(1);
+    }
+    
+    .profile-image {
+    display: none;
+    }
+    
+    .profile-image-dark {
+    display: inline-block;
+    } 
+    
+    .nav-links.active {
+      background-color: #ffffff;
+      }
+
+      .nav-links.active .nav-link {
+        color: #000000;
+      }
+
+      .header {
+        background-color: #7a00ae;
+      }
+  }
