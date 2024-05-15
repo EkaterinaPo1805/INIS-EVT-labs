@@ -1008,64 +1008,63 @@
     scroll-behavior: smooth;
 }
 
-.dark-theme {
-  .section {
+
+.dark-theme .section {
     background-color: #7a00ae;
   }
 
-  .hero-title {
+  .dark-theme .hero-title {
     color: #000000;
   }
 
-  .appointment-button {
+  .dark-theme .appointment-button {
     background-color: #e6a8ff;
     color: #ffffff;
   }
 
-  .about-title {
+  .dark-theme .about-title {
     color: #7a00ae;
   }
 
-  .why-we-text {
+  .dark-theme .why-we-text {
     color: #ffffff;
   }
   
-  .why-we-section {
+  .dark-theme .why-we-section {
     background-color: #7a00ae;
   }
   
-  .benefit-column {
+  .dark-theme .benefit-column {
     background-color: #e6a8ff;
     color: #ffffff;
   }
   
-  .team-heading {
+  .dark-theme .team-heading {
     color: #7a00ae;
   }
   
-   .team-member-card {
+  .dark-theme .team-member-card {
     background-color: #7a00ae;
     border: 2px solid #ffffff;
     color: #ffffff;
   } 
-  .services-section {
+  .dark-theme .services-section {
     background-color: #7a00ae;
     color: #ffffff;
   }
 
-  .contacts-section a:hover{
+  .dark-theme .contacts-section a:hover{
     color: #7a00ae;
   }
-  .contacts-title {
+  .dark-theme .contacts-title {
     color: #7a00ae;
   }
  
-  .appointment-button:hover {
+  .dark-theme .appointment-button:hover {
     color: #7a00ae;
   }
-  .appointment-button:active {
+  .dark-theme .appointment-button:active {
     background-color: #3e0059;
     color: #ffffff;
     border: none;
-  }
   }
