@@ -1,0 +1,15 @@
+D:\GitHub\INIS-EVT-labs\EVT\lr2\bin\Debug\net7.0\lr.exe
+D:\GitHub\INIS-EVT-labs\EVT\lr2\bin\Debug\net7.0\lr.deps.json
+D:\GitHub\INIS-EVT-labs\EVT\lr2\bin\Debug\net7.0\lr.runtimeconfig.json
+D:\GitHub\INIS-EVT-labs\EVT\lr2\bin\Debug\net7.0\lr.dll
+D:\GitHub\INIS-EVT-labs\EVT\lr2\bin\Debug\net7.0\lr.pdb
+D:\GitHub\INIS-EVT-labs\EVT\lr2\obj\Debug\net7.0\lr.csproj.AssemblyReference.cache
+D:\GitHub\INIS-EVT-labs\EVT\lr2\obj\Debug\net7.0\lr.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\INIS-EVT-labs\EVT\lr2\obj\Debug\net7.0\lr.AssemblyInfoInputs.cache
+D:\GitHub\INIS-EVT-labs\EVT\lr2\obj\Debug\net7.0\lr.AssemblyInfo.cs
+D:\GitHub\INIS-EVT-labs\EVT\lr2\obj\Debug\net7.0\lr.csproj.CoreCompileInputs.cache
+D:\GitHub\INIS-EVT-labs\EVT\lr2\obj\Debug\net7.0\lr.dll
+D:\GitHub\INIS-EVT-labs\EVT\lr2\obj\Debug\net7.0\refint\lr.dll
+D:\GitHub\INIS-EVT-labs\EVT\lr2\obj\Debug\net7.0\lr.pdb
+D:\GitHub\INIS-EVT-labs\EVT\lr2\obj\Debug\net7.0\lr.genruntimeconfig.cache
+D:\GitHub\INIS-EVT-labs\EVT\lr2\obj\Debug\net7.0\ref\lr.dll
